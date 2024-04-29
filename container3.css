@@ -95,6 +95,7 @@
 .titel .titel-short-border{
     width: 128px;
     border:2px solid rgba(37, 107, 255, 1);
+    margin-top:20px;
 }
 .grid-container{
     display: grid;
