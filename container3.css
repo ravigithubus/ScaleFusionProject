@@ -6,19 +6,19 @@
     height:30%;
     background-image: linear-gradient(rgba(37, 107, 255, 0.1),rgba(37, 107, 255, 0));
     padding-bottom:20px;
-    font-family:"IBM Plex Sans", san
+    font-family:"IBM Plex Sans", sans-serif;
 }
 .head-container{
+    display:grid;
+    place-items: center;
     width:80%;
-    height:129.08px;
+    height:100.08px;
     background-color: #ffffff;
     margin:0 auto;
     border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-items: center;
     box-shadow:2px 6px 5px rgba(185, 186, 187, 0.3);
     padding:10px;
+    z-index: 2;
 }
 .head-container div{
     display: flex;
@@ -161,4 +161,3 @@
         grid-column:1 / span 1;
     }
 }
-
