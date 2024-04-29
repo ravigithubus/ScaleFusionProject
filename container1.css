@@ -82,21 +82,22 @@
     height:100%;
     object-fit:cover;
 }
-@media screen and (max-width:800px){
+@media screen and (max-width:805px){
     .text-area{
-        font-size:24px;
-        line-height:27px;
-    }
-    
+        font-size:35px;
+        line-height:40px;
+    }    
 }
 @media screen and (max-width:500px){
-    .get-started{
-        width: 140px;
-        height:54px;
+    .container1{
+        height:80vh;
     }
-    .schedule-a-demo{
-        width:180px;
-        height:54px;
+    .right-side{
+        display: none;
+    }
+    .left-side{
+        width:100%;
+        padding-left:10px;
     }
 }
 
