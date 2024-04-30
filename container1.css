@@ -83,17 +83,16 @@
     height:100%;
     object-fit:cover;
 }
-@media screen and (max-width:805px){
+@media screen and (max-width:800px){
+    .container1{
+        height:90vh;
+    }
     .text-area{
         font-size:30px;
         line-height:40px;
         padding:20px;
-    }    
-}
-@media screen and (max-width:500px){
-    .container1{
-        height:80vh;
-    }
+    } 
+  
     .right-side{
         display: none;
     }
