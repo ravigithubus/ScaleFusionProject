@@ -15,10 +15,8 @@
     font-family:"IBM Plex Sans", sans-serif;
 }
 .left-side{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display:grid;
+    place-items: center;
     width:50%;
     height:100%;
     box-sizing: border-box;
@@ -83,16 +81,23 @@
     height:100%;
     object-fit:cover;
 }
-@media screen and (max-width:800px){
+
+@media screen and (min-width:600px) and (max-width:1000px){
+    .text-area{
+        font-size:28px;
+        line-height:40px;
+        padding:20px;
+    } 
+}
+@media screen and (max-width:600px){
     .container1{
-        height:90vh;
+        height:100vh;
     }
     .text-area{
         font-size:30px;
         line-height:40px;
         padding:20px;
     } 
-  
     .right-side{
         display: none;
     }
